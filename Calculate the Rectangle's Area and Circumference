@@ -1,0 +1,22 @@
+def calculate_rectangle_area(length, breadth):
+    area = length * breadth
+    return area
+
+def calculate_rectangle_perimeter(length, breadth):
+    perimeter = 2 * (length + breadth)
+    return perimeter
+
+# Input from the user
+print("Enter length:")
+length = float(input())
+
+print("Enter breadth:")
+breadth = float(input())
+
+# Calculate area and perimeter
+area = calculate_rectangle_area(length, breadth)
+perimeter = calculate_rectangle_perimeter(length, breadth)
+
+# Display the results on two separate lines
+print(f"Area is {area}")
+print(f"Perimeter is {perimeter}")
