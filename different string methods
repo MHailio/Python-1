@@ -72,4 +72,21 @@ print(name)
 max
 len(name)
 3
+word = 'supercalifragilisticexpialidocious'
+word[0]
+'s'
+word[2]
+'p'
+word[0:5:1]
+'super'
+word[0:5:2]
+'spr'
+word[5:9:1]
+'cali'
+word[5:]
+'califragilisticexpialidocious'
+word[5::2]
+'clfaiitcxildcos'
+word[::-1]
+'suoicodilaipxecitsiligarfilacrepus'
 
