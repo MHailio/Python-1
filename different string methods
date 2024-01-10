@@ -1,0 +1,75 @@
+'hello'.count('e')
+1
+text = 'happy birthday'
+text.count('a')
+2
+text.count('day')
+1
+x = 'Happy Birthday'
+x.lower()
+'happy birthday'
+
+x.upper()
+'HAPPY BIRTHDAY'
+
+x
+'Happy Birthday'
+s = x.upper()
+s
+'HAPPY BIRTHDAY'
+x.lower()
+'happy birthday'
+x.upercase
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    x.upercase
+AttributeError: 'str' object has no attribute 'upercase'
+x.capitalize()
+'Happy birthday'
+x.islower()
+False
+x.isupper()
+False
+x.istitle()
+True
+x.isalpha()
+False
+'abcd'.isalpha()
+True
+x.isdigit()
+False
+'123'.isdigit()
+True
+y = 'happybirthday123'
+y.isalnum()
+True
+
+x = 'happy birthday'
+x.index('birthday')
+6
+x.find('birthday')
+6
+y = '00000happy birthday'
+y.strip('0')
+'happy birthday'
+y.lstrip('00000')
+'happy birthday'
+y.rstrip('0')
+'00000happy birthday'
+name = input('what is your name?: ')
+what is your name?: 
+print(name)
+
+name
+''
+name
+''
+max
+<built-in function max>
+name = input('what is your name?: ').strip()
+what is your name?: max
+print(name)
+max
+len(name)
+3
+
