@@ -89,4 +89,16 @@ word[5::2]
 'clfaiitcxildcos'
 word[::-1]
 'suoicodilaipxecitsiligarfilacrepus'
+word = 'supercalifragilisticexpialidocious'
+word[-2]
+'u'
+word.index('cali')
+5
+word.index('fragi')
+9
+x('cali'):word.index('fragi')]
+'cali'
+
+word[word.index('docious'):]
+'docious'
 
