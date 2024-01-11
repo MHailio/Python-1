@@ -7,3 +7,31 @@ elif num1 < num2:
     print('num2 is bigger than num1')
 else:
     print('both numbers are equal')
+
+# if not 
+
+
+if C >= 10 and D > 1:
+    print('It worked!')
+
+    
+if not (C > 10 and D > 1):
+    print('It worked!')
+
+# if or 
+C = 5
+D = -1
+if C > 1 or D >1:
+    print('it worked')
+
+    
+it worked
+D = 5
+if C > 1 or D > 1:
+    print('it worked')
+
+if not (C > 100 or D > 100):
+    print('it worked')
+
+
+
