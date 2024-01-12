@@ -1,0 +1,38 @@
+students = {'Alice':25,'Bob':27,'Claire':17,'Dan':21,'Emma':22}
+students['Dan']
+21
+students['Fred'] = 25
+students
+{'Alice': 25, 'Bob': 27, 'Claire': 17, 'Dan': 21, 'Emma': 22, 'Fred': 25}
+students['Alice'] = 26
+del students['Fred']
+students['Fred']
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    students['Fred']
+KeyError: 'Fred'
+students.keys()
+dict_keys(['Alice', 'Bob', 'Claire', 'Dan', 'Emma'])
+a = list(student.keys())
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    a = list(student.keys())
+NameError: name 'student' is not defined. Did you mean: 'students'?
+a = list(students.keys())
+a
+['Alice', 'Bob', 'Claire', 'Dan', 'Emma']
+list(students.values())[2:]
+[17, 21, 22]
+students = {
+            'Alice':{'id': 'ID0001','age':26,'grade:':'A'},
+            'Bob':{'id': 'ID0002','age':27,'grade':'B'},
+            'Claire':{'id': 'ID0003','age':17,'grade':'C'},
+            'Dan':{'id': 'ID0004','age':21,'grade':'D'},
+            'Emma':{'id': 'ID0005','age':22,'grade':'E'}
+            }
+
+
+print(students['Dan']['age'])
+
+print(students['Emma']['id'],students['Emma']['grade'])
+
