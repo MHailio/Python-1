@@ -6,18 +6,11 @@ students
 {'Alice': 25, 'Bob': 27, 'Claire': 17, 'Dan': 21, 'Emma': 22, 'Fred': 25}
 students['Alice'] = 26
 del students['Fred']
-students['Fred']
-Traceback (most recent call last):
-  File "<pyshell#8>", line 1, in <module>
-    students['Fred']
-KeyError: 'Fred'
+
 students.keys()
 dict_keys(['Alice', 'Bob', 'Claire', 'Dan', 'Emma'])
 a = list(student.keys())
-Traceback (most recent call last):
-  File "<pyshell#10>", line 1, in <module>
-    a = list(student.keys())
-NameError: name 'student' is not defined. Did you mean: 'students'?
+
 a = list(students.keys())
 a
 ['Alice', 'Bob', 'Claire', 'Dan', 'Emma']
